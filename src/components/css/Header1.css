@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@300;400;500&family=Roboto:wght@500&display=swap');
+.content__list{
+    position: relative;
+    width: 1000px;
+}
+.content__list .content__item{
+    position: absolute;
+    width: 470px;
+    height: 555px;
+    background: rgba(255, 255, 255, 0.72);
+    -webkit-backdrop-filter: blur(15.5px);
+    backdrop-filter: blur(15.5px);
+    font-family: 'Poppins', sans-serif;
+    padding: 60px;
+    left: 160px;
+    top: 0;
+    transform: translate(12% , -130%);
+}
+ .content__item .content__h2 h2{
+    font-style: normal;
+font-weight: 700;
+font-size: 56px;
+font-family: 'Poppins', sans-serif;
+line-height: 69px;
+}
+.content__item .content__p p{
+    font-style: normal;
+font-weight: 300;
+font-size: 20px;
+font-family: 'Poppins', sans-serif;
+color: #898989;
+margin: 35px 0px;
+line-height: 33px;
+}
+.content__item .content__button button{
+    width: 374px;
+    height: 78px;
+    background: #E89F71;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+@media (max-width:1440px) {
+    .content__list .content__item{
+        width: 385px;
+        transform: translate(-1% , -120%);
+    }
+}

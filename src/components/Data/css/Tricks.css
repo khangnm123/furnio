@@ -1,0 +1,67 @@
+.tricks__container{
+    position: relative;
+    width: 100%;
+    max-width: 1400px;
+    height: 95vh;
+    margin: 0px auto;
+    top: 140px;
+}
+.tricks__big{
+    background: #E5E5E5;
+    position: relative;
+    top: -89px;
+}
+.tricks__container h2{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.tricks__container .slick-next{
+    right: 0;
+    top: 50%;
+
+}
+.tricks__container .slick-prev{
+    left: 0;
+    top: 50%;
+    position: absolute;
+    z-index: 1000;
+}
+.tricks__container .slick-dots{
+    position: absolute;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    bottom: -80px;
+    left: 0;
+}
+.tricks__container .trick__image img{
+    width: 440px;
+    height: 300px;
+    object-fit: cover;
+}
+.tricks__container .slick-slide > div{
+    margin: 0 20px;
+}
+.trick__text{
+    width: 441px;
+    background: #fff;
+    padding: 23px;
+}
+.trick__text h3{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    width: 360px;
+}
+.trick__text p{
+    font-weight: 400;
+    font-size: 14px;
+    color: #898989;
+    margin-top: 15px;
+}

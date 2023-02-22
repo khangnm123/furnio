@@ -1,0 +1,106 @@
+footer{
+    position: relative;
+    width: 2300px;
+    max-width: 95%;
+    margin: 100px 50px;
+    height: auto;
+}
+.content__footer{
+    display: grid;
+    grid-template-columns: 20% auto auto auto auto;
+}
+.content__footer ul li{
+    list-style: none;
+    margin: 0px 10px;
+}
+.footer__p{
+    margin: 10px 0px;
+}
+.footer__p p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #616161;
+}
+.footer__map{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0px;
+    color: #616161;
+    
+}
+.footer__map p{
+    font-size: 16px;
+    font-style: normal;
+font-weight: 400;
+}
+.footer__call{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0px;
+    color: #616161;
+}
+.footer__call p{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.footer__web{
+    color: #616161;
+}
+.footer__h2 #mn{
+    margin: 17px 50px;
+    text-align: left;
+}
+.footer__ul{
+    margin: 5px 0px;
+}
+.footer__ul ul{
+    line-height: 35px;
+}
+.footer__ul ul li{
+    font-weight: 500;
+    font-size: 16px;
+    color: #616161;
+    font-style: normal;
+}
+.footer__ip input
+{
+    width: 249px;
+    height: 30px;
+    margin: 20px 0px;
+    background: #F4F5F7;
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+.footer__ip button{
+    position: absolute;
+    top: 87px;
+    width: 48px;
+    height: 45px;
+    outline: none;
+    border: none;
+    background: #E89F71;
+}
+@media (max-width:1024px) {
+    footer{
+        margin: 100px -30px;
+    }
+    .content__footer{
+        grid-template-columns: auto auto auto;
+        left: 90px;
+        position: relative;
+    }
+    .footer__ip button{
+        bottom: 54px;
+        top: unset;
+    }
+}
+@media (max-width:768px){
+    .footer__ip button{
+        bottom: 86px;
+    }
+}

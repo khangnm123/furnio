@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@300;500&family=Roboto:wght@500&display=swap');    
+header{
+    min-height: 130px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+  
+    margin: 0px 0px;
+    flex-wrap: wrap;
+    top: 0;
+    z-index: 1000;
+    padding: 0px 0px;
+}
+nav .nav-cart{
+    list-style: none;
+    align-items: center;
+}
+header .logo a{
+    text-decoration: none;
+    color: black;
+}
+header nav{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 20px;
+}
+.logo h1{
+    font-size: 30px;
+    font-family: 'Poppins';
+    align-items: center;
+    position: relative;
+    top: -5px;
+}
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: #555;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0 15px;
+    display: flex;
+}
+nav ul li a:hover{
+    color:lightseagreen;
+    position: relative;
+}
+nav .nav-cart{
+    cursor: pointer;
+}
+header.active{
+    background: white;
+    position: fixed;
+    transition: 1s ease-in-out;
+}
+
+header .menu,
+header .close{
+    cursor: pointer;
+    display: none;
+}
+header.close.list{
+    display: none;
+}
+@media (max-width:1440px) {
+    header ul{
+        position: fixed;
+        top: -105%;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        background: white;
+        z-index: 99;
+        opacity: 0.97;
+        transition: 1s linear;
+    }
+    header .menu{
+        display: block;
+        position: absolute;
+        left: 75%;
+    }
+    header .close{
+        display: block;
+    }
+    header.close{
+        position: absolute;
+        top: 10px;
+        right: 20px;
+    }
+    header ul.toggle{
+        top: -20px;
+    }
+    .nav-cart{
+        top: 43px;
+    }
+    .content__list .content__item {
+        position: absolute;
+        width: 40%;
+        height: 490px;
+        background: rgba(255, 255, 255, 0.72);
+        -webkit-backdrop-filter: blur(15.5px);
+        backdrop-filter: blur(15.5px);
+        font-family: 'Poppins', sans-serif;
+        padding: 60px;
+        left: 160px;
+        top: 0;
+        transform: translate(-16% , -136%);
+        /* display: none; */
+        max-width: 1200px;
+    }
+}
+@media (max-width:1024px) {
+    nav .nav-cart{
+        left: 78%;
+    }
+  
+}
+@media (max-width:768px) {
+    .content__list .content__item {
+       display: none;
+    }
+    header .menu{
+        left: 68%;
+    }
+    nav .nav-cart {
+        left: 71%;
+    }
+}
+header nav ul{
+    display: inline-flex;
+    align-items: center;
+}
+.input__type{
+      position: absolute;
+    height: 38px;
+    max-width: 630px;
+    width: 30%;
+    background-color: #fff;
+    left: 43%;
+}
+.input__type img{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.input__type img.active{
+    position: absolute;
+    /* top: 50%; */
+    transform: translateY();
+    top: 20px;
+    left: 30px;
+
+}
+.input__type input.active{
+    border: 1px solid #000;
+}
+.input__type input{
+    border:none;
+    outline: none;
+    font-weight: 400;
+    padding: 12px 50px;
+    background-color: #fff;
+    width: 100%;
+    max-width: 300px;
+}
+.input__type img{
+    left: 15px;
+}
+.nav-cart{
+    cursor: pointer;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    left: 80%;
+}
+.nav-cart a img{
+    margin: 0px 30px;
+    width: 25px;
+    height: 25px;
+}
+ .img__user img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+h1{
+width: 74px;
+height: 29px;
+font-family: 'Poppins', sans-serif;
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+}
+nav ul li a img{
+    width: 15px;
+    height: 20px;
+    left: 10px;
+    position: relative;
+}
+.listcontent{
+    display: none;
+}
+.listcontent.addtocart{
+    display: block;
+    transition: all 1s ease-in-out;
+}

@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@300;400;500&family=Roboto:ital,wght@0,500;1,400&display=swap');   
+
+.card-wapper{
+    position: relative;
+    width: 100%;
+    padding: 0 10px;
+
+}
+.card{
+    width: 95%;
+    height: 90vh;
+    cursor: pointer;
+    position: relative;
+}
+.card .card-image{
+    position: absolute;
+    top: 105px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+
+}
+.card .card-image img{
+    width: 940px;
+    height: 643px;
+}
+.slick-slide > div{
+    margin: 0px -50%;
+}
+.slick-next{
+    background: #E89F71;
+    width: 48px;
+    height: 48px;
+    border-radius: 25px;
+    top: -88px;
+    position: absolute;
+    right: 14%;
+}
+.slick-prev{
+    top: -89px;
+    left: 80%;
+    width: 48px;
+    height: 48px;
+    background: #E89F71;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.slick-dots li button{
+    width: 20px;
+    height: 20px;
+    border:1px solid #E89F71;
+    border-radius: 20px;
+}
+.slick-dots li button::before{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    content: "";
+    text-align: center;
+    color: #E89F71;
+    background-color: #E89F71;
+    transform: translate(-50%, -50%);
+    transition: all .3s ease-in-out;
+}
+.slick-next:hover , .slick-next:focus , .slick-prev:focus , .slick-prev:hover{
+    color: #fff;
+    outline: none;
+    background-color: #E89F71;
+}
+.slick-next::before , .slick-prev::before{
+    background-color: #E89F71;
+    opacity: .7;
+}
+.slick-dots{
+    position: absolute;
+    top: 0;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    bottom: unset;
+}
+.content{
+    position: absolute;
+}
+.slick-slider{
+    top: 115px;
+}
+.content-list{
+    position: relative;
+}
+.content-item{
+    position: absolute;
+    left: 32%;
+    width: 300px;
+    background: rgba(255, 255, 255, 0.72);
+    -webkit-backdrop-filter: blur(15.5px);
+    backdrop-filter: blur(15.5px);
+    z-index: 1000;
+    height: 154px;
+    top: -290px;
+    padding: 20px;
+}
+.content-item h2{
+    font-size: 30px;
+    font-weight: 600;
+    font-style: normal;
+    font-family: 'Poppins', sans-serif;
+}
+.content-p p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    color: #616161;
+    line-height: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+.content-price p{
+    font-style: normal;
+font-weight: 600;
+font-size: 20px;
+font-family: 'Poppins', sans-serif;
+}
+.content-icon i{
+    position: absolute;
+    top: 100px;
+    right: 20px;
+    font-size: 30px;
+}
+@media (max-width:1440px) {
+    .slick-dots{
+        top: 85%;
+        left: -7px;
+    }
+    .slick-prev{
+        top: 50%;
+        left: 0;
+        z-index: 1;
+    }
+    .slick-next {
+        background: #E89F71;
+        width: 48px;
+        height: 48px;
+        border-radius: 25px;
+        position: absolute;
+        top: 50%;
+        right: 0px;
+    }
+    .card .card-image img {
+        width: 660px;
+        height: 510px;
+        position: relative;
+    }
+    .content-item{
+        top: -193px;
+        left: -399px;
+    }
+}
+@media (max-width:1024px){
+    .content-item {
+        top: -193px;
+        left: -353px;
+    }
+    .card .card-image {
+        position: absolute;
+        top: 188px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        z-index: 2;
+    }
+    .card .card-image img {
+        width: 500px;
+        height: 440px;
+        position: relative;
+    }
+}
+@media (max-width:768px){
+    .card .card-image img {
+        width: 370px;
+        height: 442px;
+        position: relative;
+    }
+    .content-item {
+        top: -170px;
+        left: -293px;
+        width: 240px;
+        height: 133px;
+    }
+    .content-item h2 {
+        font-size: 28px;
+        font-weight: 600;
+        font-style: normal;
+        font-family: 'Poppins', sans-serif;
+    }
+}
