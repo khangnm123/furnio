@@ -30,6 +30,7 @@ function OurProducts() {
 
 
         const handleClick = (product) =>{
+                product.amount = 1;
                 dispatch(addTocart(product));
         }
         useEffect(() => {
