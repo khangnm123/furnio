@@ -38,3 +38,10 @@
         grid-template-columns: auto auto;
     }
 }
+@media (max-width: 375px){
+
+
+.title {
+    grid-template-columns: auto;
+}
+}

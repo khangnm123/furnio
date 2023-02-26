@@ -99,3 +99,13 @@
 
 
 }
+@media (max-width:320px){
+    .tricks__container .trick__image img {
+        width: 297px;
+        height: 300px;
+        object-fit: cover;
+    }
+    .trick__text {
+        width: 253px;
+    }
+}

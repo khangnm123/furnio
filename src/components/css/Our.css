@@ -226,3 +226,37 @@
     }
 
 }
+@media (max-width:425px){
+    .product-list h1 {
+        left: 53%;
+    }
+    .product-container {
+        grid-template-columns: auto;
+        width: 90%;
+        left: 197px;
+    }
+    .product-list{
+        height: 340rem;
+    }
+    .product__button {
+        left: 45px;
+    }
+}
+@media (max-width: 375px)
+{
+.product-container {
+    grid-template-columns: auto;
+    width: 90%;
+    left: 160px;
+}
+}
+@media (max-width:320px){
+    .product-container {
+        grid-template-columns: auto;
+        width: 90%;
+        left: 133px;
+    }
+    .product-list{
+        height: 305rem;
+    }
+}

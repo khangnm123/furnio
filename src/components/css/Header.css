@@ -134,6 +134,51 @@ header.close.list{
         left: 71%;
     }
 }
+@media (max-width:425px){
+    nav .nav-cart {
+        left: 50%;
+    }
+    .content-item {
+        top: -170px;
+        left: -334px;
+        width: 240px;
+        height: 133px;
+    }
+    header .menu {
+        left: 45%;
+    }
+    .menu__list{
+            display: flex;
+            position: relative;
+            left: -40px;
+    }
+}
+@media (max-width: 375px){
+
+header .menu{
+    left: 38%;
+}
+nav .nav-cart {
+    left: 44%;
+}
+.input__type {
+    position: absolute;
+    height: 38px;
+    max-width: 630px;
+    width: 30%;
+    background-color: #fff;
+    left: 20%;
+}
+}
+@media (max-width:320px){
+    nav .nav-cart{
+        left: 33%;
+    }
+    header .menu{
+        left: 33%;
+        top: 10%;
+    }
+}
 header nav ul{
     display: inline-flex;
     align-items: center;

@@ -97,3 +97,44 @@
         flex-wrap: wrap;
     }
 }
+@media (max-width:425px){
+    #one {
+        width: 404px;
+    }
+    .image__left .rooms__h2 h2 {
+        font-weight: bold;
+        font-size: 32px;
+        color: #3A3A3A;
+        line-height: 60px;
+    }
+    .image__left {
+        position: absolute;
+        height: auto;
+        width: 71%;
+        top: 223px;
+        left: 100px;
+    }
+}
+@media (max-width: 425px){
+
+
+#one {
+    width: 371px;
+}
+}
+@media (max-width:320px){
+    #one {
+        width: 317px;
+    }
+    .image__left {
+        position: absolute;
+        height: auto;
+        width: 92%;
+        top: 223px;
+        left: 19px;
+    }
+    #two {
+        margin-top: 66px;
+        width: 315px;
+    }
+}

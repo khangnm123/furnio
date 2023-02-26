@@ -104,3 +104,16 @@ font-weight: 400;
         bottom: 86px;
     }
 }
+@media (max-width:425px){
+    .content__footer {
+        grid-template-columns: auto;
+        left: 90px;
+        position: relative;
+    }
+}
+@media(max-width:320px){
+    .footer__ip button {
+        bottom: 23px;
+        left: 220px;
+    }
+}
