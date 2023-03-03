@@ -77,7 +77,7 @@ function Hedear() {
             <img src={Heart} alt="" width="20px" />   </Link></li>
               <li> 
                 <Link to="/ShoppingCart" onClick={handleClickcontent}>
-                  
+                  <span id='count__cart'>{listProductCart.length}</span>
               <img src={Cart} alt="" width="20px" />
             </Link></li>
               <li><div className='img__user'>

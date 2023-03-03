@@ -36,6 +36,19 @@ nav ul li{
     position: relative;
     top: -5px;
 }
+#count__cart{
+    width: 28px;
+    position: absolute;
+    top: -17px;
+    left: 130px;
+    background: red;
+    border-radius: 50%;
+    height: 28px;
+    padding: 0px 0px;
+    text-align: center;
+    color: white;
+
+}
 nav ul li a {
     text-decoration: none;
     font-family: 'Poppins', sans-serif;

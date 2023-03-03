@@ -54,6 +54,7 @@
     right: 0;
     display: flex;
     gap: 30px;
+    scroll-behavior: smooth;
 }
 #one{
     height: 660px;
@@ -137,4 +138,10 @@
         margin-top: 66px;
         width: 315px;
     }
+}
+#radio-1:checked ~ #slider-1,
+#radio-2:checked ~ #slider-2,
+#radio-3:checked ~ #slider-3,
+#radio-4:checked ~ #slider-4{
+    opacity: 1;
 }

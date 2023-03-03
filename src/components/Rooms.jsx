@@ -19,13 +19,13 @@ function Rooms() {
                     </div>
               </div>
               <div className='image__right'>
-                    <div className="content___contact1">
+                    <div className="content___contact1" id='slider-1'>
                         <img src={contact2} alt="" id='one' />
                     </div>
-                    <div className="content___contact2">
+                    <div className="content___contact2" id='slider-2'>
                         <img src={contact1} alt="" id='two'/>
                     </div>
-                    <div className="content___contact2">
+                    <div className="content___contact2" id='slider-3'>
                         <img src={contact3} alt="" id='two'/>
                     </div>
               </div>
